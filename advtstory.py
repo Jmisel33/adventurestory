@@ -58,8 +58,10 @@ elif playerChoice == 3:
 			print(' Mol is out on the window sill and looks you in the eyes and starts to speak')
 			print('Youre waiting for a train. A train that will take you far away. You know where you hope this train will take you, but you dont know for sure. But it doesnt matter, because we will be together.')
 			if(raw_input("now that youve heard the poem do you wish to continue watching ") == 'yes'):
-				print('welp she jumped off the roof and died try again')
+				print('welp she jumped off the roof and died try a different door')
 			else:
-				print("too bad shes dead now try again")
-
-
+				print("too bad shes dead now try a different door")
+		else:
+			print('well spoiler alert she died try a different door')
+	else:
+		print('Great choice not to deal with your wife. try a different door and play the game.')
